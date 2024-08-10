@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Roboto:wght@300;400;700&family=Comfortaa:wght@300..700&display=swap');
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf3e1; 
+    color: #4b2e2a; 
+    text-align: center; 
+}
+
+header {
+    background-color: #d67d3e; 
+    color: #fff;
+    padding: 10px 20px;
+    background-image: url("backround.png");
+    background-size: contain;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 5rem;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 20rem;
+    line-height: 5rem;
+    text-align: center;
+}
+
+header p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+}
+
+.personal-info {
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top:100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+    display: inline-block;
+    filter: contrast(1);
+	transition: all 0.2s;
+
+}
+
+.profile-picture:hover {
+    filter: contrast(0.8);
+}
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px; 
+}
+
+.info-text {
+    vertical-align: middle;
+    text-align: center;
+    margin: 20px;
+    line-height: 0.5;
+}
+
+.quote {
+    font-size: 3rem;
+}
+
+
+main {
+    padding: 20px;
+    background-color: #fff6e5; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 10px;
+    text-align: left; 
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #d67d3e; 
+    border-bottom: 3px solid #4b2e2a; 
+    padding-bottom: 5px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #e07b3c; 
+}
+
+footer {
+    background-color: #4b2e2a; 
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+a {
+    color: #d67d3e; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
